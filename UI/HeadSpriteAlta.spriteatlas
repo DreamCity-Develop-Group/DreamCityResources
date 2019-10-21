@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HeadSpriteAlta
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e9c5ea2cb5ce05a43811d6947dba4883, type: 3}
+    totalSpriteSurfaceArea: 80000
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ff7854f089183b049912a516b85b500f, type: 3}
+  - {fileID: 21300000, guid: 480eb232a8109744c9bfe4df0197b716, type: 3}
+  - {fileID: 21300000, guid: ee17f743951855641b47619c4ee20e82, type: 3}
+  - {fileID: 21300000, guid: f106cd9394829f94b90012f0447ca307, type: 3}
+  - {fileID: 21300000, guid: bac917994780cf74fb1ab6eacfa3224e, type: 3}
+  - {fileID: 21300000, guid: 179f7c7ca970d924aaa8b068547d61a8, type: 3}
+  - {fileID: 21300000, guid: be3b2bdd9d735714c8c634ef867d3d24, type: 3}
+  - {fileID: 21300000, guid: 4eaba28e675334a4ba013c3f1e1d3440, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Head0
+  - Head2
+  - Head3
+  - Head5
+  - Head4
+  - Head7
+  - Head1
+  - Head6
+  m_Tag: HeadSpriteAlta
+  m_IsVariant: 0
