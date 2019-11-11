@@ -35,7 +35,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 108}
-  m_SizeDelta: {x: 200, y: 44}
+  m_SizeDelta: {x: 302.6, y: 44}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &4506783182083483930
 CanvasRenderer:
@@ -65,18 +65,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 32
+    m_FontSize: 25
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 3
-    m_MaxSize: 40
+    m_MinSize: 2
+    m_MaxSize: 34
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u65E5\u7528\u54C1\u516C\u53F8"
+  m_Text: Fortune 500 Companies
 --- !u!1 &2386580814575326761
 GameObject:
   m_ObjectHideFlags: 0
@@ -1739,7 +1739,7 @@ GameObject:
   - component: {fileID: 2891908587853227808}
   - component: {fileID: 2891908587853227811}
   - component: {fileID: 2891908587853227810}
-  - component: {fileID: 1795930322590221563}
+  - component: {fileID: 4789426973796703708}
   m_Layer: 5
   m_Name: ImgStarBg
   m_TagString: Untagged
@@ -1804,7 +1804,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1795930322590221563
+--- !u!114 &4789426973796703708
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1816,27 +1816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a171f7c8e122bcf46a0081c7b117c12c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imgStart:
-  - {fileID: 2891908588237431322}
-  - {fileID: 2891908587076828541}
-  - {fileID: 2891908587113692963}
-  - {fileID: 2891908587277257171}
-  - {fileID: 2891908587228861430}
-  - {fileID: 2891908586962947249}
-  - {fileID: 2891908586443104808}
-  - {fileID: 2891908586947597508}
-  - {fileID: 2891908586716197284}
-  - {fileID: 2891908587810531860}
-  - {fileID: 2891908587196257176}
-  - {fileID: 2891908587833564150}
-  - {fileID: 2891908586231790225}
-  - {fileID: 2891908587912614768}
-  - {fileID: 2891908586370508955}
-  - {fileID: 2891908588209782382}
-  - {fileID: 2891908587675272366}
-  - {fileID: 2891908586458281124}
-  - {fileID: 2891908588047713832}
-  - {fileID: 2891908587014179239}
+  imgStart: []
 --- !u!1 &2891908587912614768
 GameObject:
   m_ObjectHideFlags: 0
@@ -2357,10 +2337,10 @@ RectTransform:
   m_Father: {fileID: 2891908586802607520}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -150}
-  m_SizeDelta: {x: 0, y: 40}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -378}
+  m_SizeDelta: {x: -45, y: 44}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9151450514165097089
 CanvasRenderer:
@@ -2384,15 +2364,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 25
     m_FontStyle: 1
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 4
@@ -2401,7 +2381,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u656C\u8BF7\u671F\u5F85"
+  m_Text: Please look forward to
 --- !u!114 &2526573179306211303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2416,5 +2396,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Language: 
   File: Language
-  Key: "\u656C\u8BF7\u671F\u5F85"
-  Value: "\u656C\u8BF7\u671F\u5F85"
+  Key: 
+  Value: Please look forward to
